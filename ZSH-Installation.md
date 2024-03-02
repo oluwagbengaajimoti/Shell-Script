@@ -53,4 +53,6 @@ chsh -s [zsh's path] [user]
  which zsh
  ```
  ![zsh configuration](./images/which-zsh.png)
+
+ ### INSTALLATION OF OH MY ZSH
  
