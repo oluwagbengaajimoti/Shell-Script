@@ -1,15 +1,13 @@
 #!/bin/bash
 
 # Update and upgrade Ubuntu server packages
-sudo apt-ger update && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 
 # Install all neccessary packages(apache server, php)
-sudo apt-get install  \
-apache2 \
-php \
-libapache2-mod-php \
+sudo apt-get install -y apache2 php libapache2-mod-php
 
 # Move website code into /var/www/html directory
+sudo mkdir -p /var/www/html/
 sudo mv html/* /var/www/html/
 
 # Move Configuration file into the /etc/apache2/sites-availabe/default.conf
@@ -26,4 +24,4 @@ sudo chown -R www-data:www-data /var/www/html/
 sudo chmod -R 755 /var/www/html/
 
 # systemctl start apache server
-sudo systemctl start apache2
+sudo systemctl reload apache2
