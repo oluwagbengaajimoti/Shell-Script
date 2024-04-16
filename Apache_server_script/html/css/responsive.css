@@ -1,0 +1,200 @@
+
+
+@media only screen and (max-width: 480px) {
+    /* #header {
+        background-image: url(images/phone-background.png);
+    } */
+
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .sub-title{
+        font-size: 45px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font: 16px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+
+    .head-content p {
+        padding: 0px 0px;
+    }
+    .header-text {
+        margin-top: 20%;
+        font-size: 20px;
+    }
+    .logo a {
+        font-size: 30px;
+    }
+    .logo {
+        width: 130px;
+    }
+
+    .social-btn a {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 14px 14px;
+        display: inline-block;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-bottom: 10px;
+    }
+    .header-button {
+        margin-top: 20%;
+    }
+    #about {
+        padding: 50px 0;
+    }
+    #header {
+        margin-bottom: 50px;
+    }
+    .btn-2 {
+        margin-bottom: 25px;
+    }
+    .text a {
+        font-size: small;
+    }
+
+    .tab-links {
+        font-size: 15px;
+    }
+
+    .about-col-2 p {
+        font-size: 13px;
+        /* padding: 0 10px; */
+    }
+
+}
+@media only screen and (min-width: 500px) and (max-width: 992px) {
+    /* #header {
+        background-image: url(images/phone-background.png);
+    } */
+    .header-text {
+        margin-top: 20%;
+        font-size: 20px;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+    }
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .sub-title{
+        font-size: 45px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .head-content p {
+        padding: 0px 0px;
+    }
+
+    .btn-2 {
+        background: #ff004f;
+        margin: 30px auto;
+    }
+    .header-button {
+        margin-top: 8%;
+    }
+    .text a {
+        font-size: small;
+    }
+    .text a {
+        font-size: small;
+    }
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+    .head-content p {
+        padding: 0px 140px;
+    }
+    .header-button {
+        margin-top: 5%;
+    }
+    #about {
+        padding: 65px 0;
+    }
+    nav ul li {
+        margin-right: 20px;
+    }
+    nav ul li a {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+}
